@@ -1,0 +1,134 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    font-size: 1em;
+    background: -100px url('../images/Lovepik_com-401457150-white-stars.png') repeat #252426 !important;
+    
+    color: #d0d0d0;
+    line-height: 1.6;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.block{
+    width: 350px;
+    margin: 10vh auto;
+    background:linear-gradient(180deg, #36393e, #2b2d30) ;
+    box-shadow: 0 0 1em rgba(0,0,0,0.5);
+}
+
+.header{
+    font-size: 20px;
+    text-align: center;
+}
+
+.line{
+    border-top:#5d5e60 2px solid;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* .content{
+    padding: 1em 2em;
+} */
+
+.info{
+    display: flex;
+    align-items: baseline;
+    width: 100%; 
+    height: 30.6px; 
+    margin-top: 5px;
+
+    border-radius: 10px;
+    padding-bottom: 5px;
+    
+    outline-color: rgba(0,0,0,0);
+}
+
+.info:nth-child(2){
+    margin-top: 5px;
+}
+
+.info:hover{
+    outline: #5d5e60 solid 2px;
+
+    border-collapse: collapse;
+    transition: outline-color .125s linear;
+}
+
+
+.half_line{
+    border-top:#5d5e60 2px solid;
+    margin: 0 auto;
+    width: 85%;
+}
+
+.info label{
+    width: 40%;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.info input{
+    width: 150px;
+    margin-left: 30px;
+    background-color: #36393e;
+    border-color: #5d5e60;
+    outline: none;
+    
+    color: #d0d0d0;
+}
+
+.btn{
+    margin-top: 15px;
+    display: flex;
+    padding-bottom: 15px;
+}
+
+
+.btn input{
+    width: 150px;
+    height: 25px;
+    list-style-type: none;
+    margin: 0.3em 0;
+    justify-content: center;
+    margin: 0 auto;
+    display: block;
+    background-color: #424549;
+    /* background: linear-gradient(180deg, #424549) ; */
+    border: #76777a 2px solid;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 16px;
+    padding: 0;
+    display: block;
+    text-decoration: none;
+    color: #d0d0d0;
+
+    transition: border-color .1s linear;
+    transition: background-color .1s linear;
+}
+
+.btn input:hover{
+    border-color: #71aaeb;
+    background: #5d5e60b6;
+}
+
+.errors{
+    color: #be4d4d;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.succes{
+    color: #4dbe82;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 15px;
+    text-align: center;
+}
